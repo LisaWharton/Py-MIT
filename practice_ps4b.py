@@ -1,7 +1,6 @@
 import string
 
 
-### HELPER CODE ###
 def load_words(inFile):
     '''
     file_name (string): the name of the file containing 
@@ -53,8 +52,6 @@ def get_story_string():
     f.close()
     return story
 
-
-### END HELPER CODE ###
 
 WORDLIST_FILENAME = 'words.txt'
 
